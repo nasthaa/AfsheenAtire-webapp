@@ -58,7 +58,6 @@ const BannerSection = () => {
     }
   };
   
-
   useEffect(() => {
     if (isTransitioning) {
       const transitionEndHandler = setTimeout(() => {
@@ -112,7 +111,7 @@ const BannerSection = () => {
                     <div className="categories text-gray-600 font-bold uppercase mb-4">
                       {slide.sub}
                     </div>
-                    <h3 className="text-4xl font-bold text-gray-800 mb-4 leading-7">
+                    <h3 className="text-4xl font-bold text-gray-800 mb-4 leading-10">
                       {slide.title}
                     </h3>
                     <p className="text-gray-600 mb-5 leading-7">

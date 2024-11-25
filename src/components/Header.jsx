@@ -32,7 +32,7 @@ function Header() {
           </div>
 
           {/* Search bar */}
-          <div className="hidden sm:flex flex-grow max-w-lg items-center bg-gray-100 p-3 rounded-lg">
+          {/* <div className="hidden sm:flex flex-grow max-w-lg items-center bg-gray-100 p-3 rounded-lg">
             <form className="flex-grow">
               <input
                 type="text"
@@ -43,7 +43,7 @@ function Header() {
             <button>
               <i className="bi bi-search text-gray-600" style={{ fontSize: '16px' }}></i>
             </button>
-          </div>
+          </div> */}
 
           {/* Icons */}
           <div className="flex items-center pl-2 lg:gap-3 sm:gap-1">
@@ -83,23 +83,23 @@ function Header() {
                   <h4 className="text-lg font-bold">Your Cart</h4>
                   <ul className="divide-y divide-gray-200">
                     <li className="py-2 flex justify-between">
-                      <span>Growers cider</span>
-                      <span>$12</span>
+                      <span>Pashmina Shi...</span>
+                      <span>Rp 50.000,00</span>
                     </li>
                     <li className="py-2 flex justify-between">
-                      <span>Fresh grapes</span>
-                      <span>$8</span>
+                      <span>Padlock Neck...</span>
+                      <span>Rp 50.000,00</span>
                     </li>
                     <li className="py-2 flex justify-between">
-                      <span>Heinz tomato ketchup</span>
-                      <span>$5</span>
+                      <span>Hijab Basic</span>
+                      <span>Rp 45.000,00</span>
                     </li>
                   </ul>
                   <div className="flex justify-between mt-4 font-bold">
                     <span>Total</span>
-                    <span>$25</span>
+                    <span>Rp 145.000,00</span>
                   </div>
-                  <button className="w-full mt-4 bg-blue-500 text-white py-2 rounded-lg">
+                  <button className="w-full mt-4 bg-black text-white py-2.5 rounded-lg">
                     Checkout
                   </button>
                 </div>

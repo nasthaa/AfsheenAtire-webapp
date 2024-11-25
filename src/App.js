@@ -35,11 +35,13 @@ import PakaianCategory from './components/PakaianCategory';
 import SepatuCategory from './components/SepatuCategory';
 import TasCategory from './components/TasCategory';
 import AksesorisCategory from './components/AksesorisCategory';
-import Detail from './components/ProductDetail';
+// import ProductAll from './components/ProductAll';
+// import ProductCard from "./components/ProductCart";
+// import CartPage from "./components/CartPage";
+// import CheckoutPage from "./components/CheckoutPage";
+import ProductDetail from './components/ProductDetail';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -58,9 +60,8 @@ function App() {
               <Route path="/sepatu" element={<SepatuCategory />} />
               <Route path="/tas" element={<TasCategory />} />
               <Route path="/aksesoris" element={<AksesorisCategory />} />
-              <Route path="/detail" element={<Detail />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
+              {/* <Route path="/product" element={<ProductAll />} /> */}
+              <Route path="/detail" element={<ProductDetail />} />
             </Routes>
           </main>
 
